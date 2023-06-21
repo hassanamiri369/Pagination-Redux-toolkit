@@ -1,0 +1,41 @@
+.prevButton{
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nextButton{
+  border: 1px solid gray;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+.pageNumber{
+  padding: 10px;
+  border: 1px solid gainsboro;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.prevButton:hover{
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+}
+.nextButton:hover{
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+}
+.pageNumber:hover{
+  background-color: rgb(56, 56, 224);
+  color: white;
+  cursor: pointer;
+}
+
+.pagination-content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
